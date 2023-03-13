@@ -197,6 +197,9 @@ footer{
 }
 .facebook,.twitter,.instagram{
   color: white;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .facebook:hover{
@@ -422,5 +425,6 @@ footer{
     text-align: center;
     margin-top: 10px;
   }
+  
 }
 
