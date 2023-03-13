@@ -399,10 +399,11 @@ footer{
     font-size: 12px;
   }
   .location-img{
-    height: 30%;
+   height: 20px;
+   width: 15px;
   }
    .mobile-img, .mail-img{
-    width: 8%;
+    width: 24px;
     padding-right: 10px;
   }
   .abt{
@@ -418,6 +419,5 @@ footer{
     text-align: center;
     margin-top: 10px;
   }
-
 }
 
