@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+body{
+  background: url(/assets/images/bg-curvy-desktop.svg) no-repeat bottom;
+  background-size: 100% 80%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body{
+  padding: 60px 100px ; 
+}
+
+.nav-content{
+  list-style: none;
+  font-size: 20px;
+}
+
+.nav_bar{
+  margin-bottom: 50px;
+}
+.nav-content:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.intro_img{
+  width: 60%;
+}
+
+.team{
+margin-left: 40px;
+}
+.features{
+  margin-left: 40px;
+}
+.signin{
+  margin-left: 40px;
+}
+
+.content-title{
+  font-size:26px ;
+  font-weight: medium;
+}
+.contents {
+  width:100%;
+  font-size: 15px;
+}
+
+.team, .features, .signin{
+  font-size: 14px;
+  }
+
+.des-logo{
+  width: 50%;
+}
+
+.submit{
+  border: none;
+  border-radius: 25px;
+  padding: 8px 0px;
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size: 12px;
+  width: 40%;
+}
+
+.get_started{
+    border: none;
+    border-radius: 25px;
+    padding: 8px 0px;
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    font-size: 12px;
+    width: 20%;
+  }
+
+.sec-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sec-content p {
+  font-size: 12px;
+  width: 86%;
+}
+
+.files {
+  margin: 100px 100px 70px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stay-prod-cont h2{
+  width: 50%;
+}
+
+.works a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.works a:hover{
+    color:white;
+}
+
+
+
+.stay-prod-img{
+  width: 100%;
+}
+
+.satish{
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 3%;
+  padding-top: 35px;
+  font-family: 'Open Sans';
+  position: relative;
+}
+.quote{
+  position: relative;
+  top: 10px;
+}
+
+
+.satish p{
+  font-size: 14px;
+  
+}
+
+.satish_img{
+  height: 30px;
+  width: 30px;
+}
+
+.satish_content  h6{
+  font-size: 10px;
+  line-height: 1;
+ }
+
+.satish_content  p{
+ font-size: 7px;
+ line-height: 0;
+}
+
+.review{
+  display: flex;
+}
+
+.support{
+ padding: 30px 50px;
+ background-color: hsl(217, 28%, 15%);
+ margin-top: 50px; 
+position: relative;
+top: 160px;
+}
+
+.support p{
+  font-size: 15px;
+
+ }
+
+.support_input{
+  width: 60%;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 0px;
+}
+
+.support_button{
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  width:30%;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 0px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer{
+  background-color:  hsl(216, 53%, 9%);
+  padding: 150px 100px 50px 100px ;
+  
+}
+.facebook,.twitter,.instagram{
+  color: white;
+}
+
+.facebook:hover{
+  color:hsl(176, 68%, 64%);
+}
+.twitter:hover{
+  color:hsl(176, 68%, 64%);
+}
+.instagram:hover{
+  color:hsl(176, 68%, 64%);
+}
+
+.fb, .tw, .ins {
+  text-decoration: none;
+}
+
+.footer-logo{
+  width:8%;
+}
+
+.location{
+  font-size: 12px;
+}
+
+.mobile, .mail, .about, .contact{
+  font-size: 12px;
+}
+
+.location-img{
+  height: 10%;
+}
+
+ .mobile-img, .mail-img{
+  width: 10%;
+}
+
+.abt{
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width:992px) {
+  
+  .body{
+    padding: 20px; 
+  }
+
+
+  .intro_img{
+    padding: 30px;
+    margin-right: 0px;
+  }
+
+ 
+  .des-logo{
+    margin-right: 30px;
+    width: 70%;
+  }
+
+  .nav_bar_contents{
+    white-space: nowrap;
+  }
+
+  .nav-content{
+    margin-right: 0px;
+    font-size: 15px;
+  }
+
+  .team, .features, .signin{
+    margin-left: 20px;
+    }
+
+    .body-contents{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+
+    .intro_img{
+      width: 350px;
+    }
+
+    .submit{
+      width: 80%;
+      padding: 15px 0px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+  .contents {
+      width: 100%;
+      font-size: 14.5px;
+    }
+
+    .sec-content{
+      width: 10%;
+    }
+
+    .sec-content img{
+      height: 30%;
+    }
+
+    .sec-content p{
+      width: 80vw;
+      /* width: unset; */
+      font-size: 15px;
+    }
+
+    .sec-content h5{
+      font-size: 20px;
+      width: 80vw;
+    }
+
+    .files {
+      margin: 100px auto;
+    }
+
+    .stay-prod{
+      text-align: center;
+      
+    }
+
+    .stay-prod-cont h2{
+        width: 100%;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+
+    .stay-prod-cont p{
+      font-size: 13.5px;
+      line-height: 25px;
+      font-family: 'Open Sans', sans-serif;
+
+  }
+  .quote{
+    width: 15%;
+  }
+
+  .review{
+    flex-direction: column;
+  }
+
+  .satish p {
+    font-size: 11px;
+  }
+
+  .satish_content  h6{
+    font-size: 9.5px;
+    line-height: 1;
+   }
+  
+  .satish_content  p{
+   font-size: 7px;
+   line-height: 0;
+  }
+
+  .support{
+    padding: 30px 25px;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 150px;
+    position: relative;
+    top: 200px;
+
+   }
+   .support p{
+     font-size: 15px;
+    }
+   .support_input{
+     width: 100%;
+     border-radius: 30px;
+     border: none;
+     margin-bottom: 20px;
+     padding: 15px 0px;
+   }
+   .support_button{
+     background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+     width:100%;
+     border-radius: 30px;
+     border: none;
+     padding: 15px 0px;
+   }
+   footer{
+    padding: 150px 30px 30px 30px ;
+    width: 100%;
+  }
+   .footer-logo{
+    margin-top: 100px;
+    width:30%;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .loc{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .location{
+    font-size: 12px;
+  }
+  .mobile, .mail, .about, .contact{
+    font-size: 12px;
+  }
+  .location-img{
+    height: 30%;
+  }
+   .mobile-img, .mail-img{
+    width: 8%;
+    padding-right: 10px;
+  }
+  .abt{
+    flex-direction: column;
+  }
+  .about{
+    margin-top: 60px; 
+  }
+  .contact{
+    margin: 30px 0px;
+  }
+  .social{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+}
+
